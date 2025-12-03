@@ -1,0 +1,284 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>Veritas</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">Louvre</a>
+          <a href="#secc2">Conferencias</a>
+          <a href="#secc3">Libros</a>
+          <a href="#secc4">Cine</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Museo Louvre</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El Museo del Louvre Presenta: VERITAS
+		  <br><!--etiqueta para un brinco de renglón-->
+		  <br><!--etiqueta para un brinco de renglón-->
+El Festival VERITAS no es un evento ajeno; es una iniciativa directa del Museo del Louvre, que extiende su misión de preservar el conocimiento y la verdad histórica a la era digital.
+<br><!--etiqueta para un brinco de renglón-->
+El Louvre, guardián de la civilización y testigo de siglos de cambio, cede el espacio bajo el icónico brillo de su Pirámide para este encuentro crucial. Al patrocinar VERITAS, la institución asume un papel activo, albergando el debate sobre las grandes verdades del pasado y los desafíos de la era digital.
+<br><!--etiqueta para un brinco de renglón-->
+Este encuentro es una declaración de autoridad intelectual, que une la trascendencia histórica del Louvre con la urgencia del pensamiento crítico contemporáneo.
+<br><!--etiqueta para un brinco de renglón-->
+<br><!--etiqueta para un brinco de renglón-->
+París, 10 al 12 de Noviembre.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p></p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		 <br><!--etiqueta para un brinco de renglón-->
+	        		  <br><!--etiqueta para un brinco de renglón-->
+	        		  </div>
+	        		<div class="contenedor-imagen-360">
+    		<a href="https://i.postimg.cc/8CNzRhLm/Museo-del-Louvre-Street-View-360.jpg" target="_blank" title="Clic para ver la Pirámide del Louvre en 360">
+        		<img src="https://i.postimg.cc/8CNzRhLm/Museo-del-Louvre-Street-View-360.jpg" alt="Vista Panorámica de la Pirámide del Louvre">
+        	</a>
+    		<p class="pie-360">Clic para explorar la Pirámide del Louvre en 360°.</p>
+    	</div>
+    </div> ```</div> <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		   
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/qr.png" title="qr">
+	        		 <br><!--etiqueta para un brinco de renglón-->
+	        		  <br><!
+		        </div>
+    		
+		       
+		        <p></p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		       
+    		</div>
+	        		
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p></p>
+	        		<!--texto para imagen a la derecha-->
+	        		<p></p>
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p></p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+	        		<!--texto para la imagen-->
+	        		<p></p>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Conferencias Magistrales: Los Guardianes de la Verdad</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p><div class="texto-secc">
+        <h1></h1>
+        <br>
+        <p>El Festival VERITAS es el punto de encuentro donde la historia se desarma y el conocimiento se reconstruye.</p>
+        <br>
+        <h2>El Cónclave de las Verdades Incómodas</h2>
+        <br>
+        <p>Frente a la desinformación masiva, el Louvre abre sus puertas a las voces más críticas e investigativas de nuestro tiempo. Este es un espacio para desvelar los mecanismos ocultos de poder, analizar las estructuras que moldean nuestra realidad y discutir cómo las grandes narrativas históricas han sido construidas.</p>
+        <br>
+        <p>Nuestros ponentes son investigadores que han dedicado su vida a cruzar los límites del conocimiento oficial:</p>
+        <br>
+           <p> Antony Sutton: El legado de un economista que expuso sin miedo la conexión entre las élites de Wall Street y el auge de los totalitarismos del siglo XX. Un análisis ineludible sobre el poder económico que financia las guerras y las revoluciones.
+<br><!--etiqueta para un brinco de renglón-->
+<br><!--etiqueta para un brinco de renglón-->
+Jorge Guerra: Presentando la investigación detrás de La Nobleza Negra: El Imperio de la 3ra Guerra Mental. Una inmersión profunda en las estrategias del control mental y las élites modernas.
+<br><!--etiqueta para un brinco de renglón-->
+<br><!--etiqueta para un brinco de renglón-->
+Guillermo Mas Arellano: Reconocido analista en temas de geopolítica, sociedades secretas y la historia oculta de los poderes facticos.</p>
+        
+        <br>
+        <p>Prepárese para un simposio donde los mitos se confrontan y las realidades se revelan.</p>
+        <br></div></p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p></p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p>Tres voces fundamentales que analizan la historia oculta, las élites financieras y la geopolítica que forjan nuestra realidad.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Biblioteca Veritas: Libros que Desafían la Realidad</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La verdad no solo se revela en conferencias; también se oculta y se desentierra en las páginas de grandes obras. Esta selección curada representa pilares del pensamiento crítico y la denuncia de las estructuras de control.
+
+Obras Fundamentales para la Conciencia Crítica<br><!--etiqueta para un brinco de renglón-->
+<br>
+El Festival VERITAS dedica un espacio especial a la literatura que ha encendido la alarma sobre la manipulación social y política:
+<br><!--etiqueta para un brinco de renglón-->
+<br>
+1984 de George Orwell: La obra distópica canónica que nos alertó sobre la vigilancia total, la reescritura de la historia y el lenguaje como herramienta de control. Una lectura esencial sobre el Gran Hermano y la pérdida de la individualidad.
+<br><!--etiqueta para un brinco de renglón-->
+<br>
+Un Mundo Feliz (Brave New World) de Aldous Huxley: Un análisis profético sobre una sociedad que renuncia a la libertad a cambio de la estabilidad y la felicidad farmacológica. Un espejo de las formas sutiles de la sumisión moderna.
+<br><!--etiqueta para un brinco de renglón-->
+<br>
+The Rape of the Mind: The Psychology of Thought Control, Menticide and Brainwashing de Joost Meerloo: La obra clave sobre cómo la guerra psicológica y el lavado de cerebro buscan destruir la identidad y el pensamiento independiente.
+<br><!--etiqueta para un brinco de renglón-->
+<br>
+Confesiones de un Sicario Económico (Confessions of an Economic Hit Man) de John Perkins: El testimonio directo sobre cómo corporaciones y gobiernos utilizan 'sicarios económicos' para endeudar y someter a naciones en desarrollo a través de la ingeniería financiera global.
+<br>
+<br>
+Únete a la conversación que estas obras maestras iniciaron.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p></p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p>Cuatro pilares de la literatura que exponen la distopía, el control mental y la manipulación financiera mucho antes de que se volvieran nuestra realidad.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Cine: Las Imágenes de la Revelación</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El Festival VERITAS culmina con una muestra audiovisual que traslada el pensamiento crítico de los libros y las conferencias a la pantalla grande. Estas producciones exploran la corrupción, el poder y la manipulación histórica a través del lente cinematográfico.
+ <br><!--etiqueta para un brinco de renglón-->
+La Programación que Despierta la Conciencia
+Esta selección ha sido curada para complementar los temas de control, élites y estructuras de poder expuestos por nuestros ponentes:
+ <br><!--etiqueta para un brinco de renglón-->
+  <br><!--etiqueta para un brinco de renglón-->
+Land Of The Blind (2006): Un impactante thriller político que explora el totalitarismo y la disidencia en un futuro cercano. Refleja directamente las advertencias sobre el poder y la vigilancia presentes en las obras de Orwell y Huxley. Una mirada a la tiranía que se camufla como orden.
+ <br><!--etiqueta para un brinco de renglón-->
+  <br><!--etiqueta para un brinco de renglón-->
+Documental Zeitgeist: The Movie (2007): Una de las producciones más divisivas y provocativas del siglo. Este documental aborda los mitos fundacionales de la sociedad, las religiones y los sistemas financieros, resonando con las investigaciones sobre historia oculta y geopolítica de nuestros ponentes.
+ <br><!--etiqueta para un brinco de renglón-->
+  <br><!--etiqueta para un brinco de renglón-->
+Documental The Money Masters / Los Amos del Dinero (1996): Una inmersión esencial en la historia oculta de los bancos centrales y la creación del dinero. Este material audiovisual sirve como el complemento perfecto a las exposiciones de Antony Sutton y John Perkins sobre las élites económicas y la manipulación financiera global.
+ <br><!--etiqueta para un brinco de renglón-->
+  <br><!--etiqueta para un brinco de renglón-->
+Deje de ver el mundo, empiece a entenderlo.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p></p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img4.png" title="Img 4">
+        		<!--texto para la imagen-->
+        		<p>La trilogía de la verdad: del control político y la disidencia (Land Of The Blind), a la manipulación financiera (The Money Masters) y el cuestionamiento de los mitos modernos (Zeitgeist). El cine que te obliga a ver el mundo de otra manera.</p>
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
